@@ -11,6 +11,13 @@
     width: 100%;
     position: relative;
 }
-.elo{
-    margin-top: 100px;
+.menuBtn{
+    margin:20px;
+    position: fixed;
+}
+.contentA{
+    margin-top: 450px;
+}
+.contentB{
+    margin-top: 50px;
 }
