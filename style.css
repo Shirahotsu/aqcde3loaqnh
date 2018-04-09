@@ -13,4 +13,14 @@
 }
 .menuBtn{
     margin:20px;
+<<<<<<< HEAD
+=======
+    position: fixed;
+}
+.contentA{
+    margin-top: 450px;
+}
+.contentB{
+    margin-top: 50px;
+>>>>>>> sideMenyBtn
 }
