@@ -1,0 +1,16 @@
+.sideNavBtns{
+    padding-right: 80px;
+}
+
+/*.mainHeader{*/
+    /*position: relative;*/
+    /*width: 100%;*/
+/*}*/
+.header{
+    margin-top: 400px;
+    width: 100%;
+    position: relative;
+}
+.elo{
+    margin-top: 100px;
+}
