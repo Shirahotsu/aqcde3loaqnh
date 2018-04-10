@@ -13,8 +13,6 @@
 }
 .menuBtn{
     margin:20px;
-<<<<<<< HEAD
-=======
     position: fixed;
 }
 .contentA{
@@ -22,5 +20,44 @@
 }
 .contentB{
     margin-top: 50px;
->>>>>>> sideMenyBtn
+}
+.contentHeader{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    font-variant: all-small-caps;
+}
+.yHr{
+    border:solid 0.5px inherit;
+}
+.wHr{
+    border:solid 0.5px #fff;
+}
+.container
+{
+    padding:20px 0;
+}
+.contentInfo{
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+.brand-logo{
+    margin-left: 80px;
+}
+
+.contentSubHeader{
+    display: flex;
+    justify-content: space-around;
+    font-variant: all-small-caps;
+
+}
+.card-content{
+    font-size: 0.8em;
+}
+
+
+@media only screen and (max-width: 992px){
+    .brand-logo{
+        margin-left: 0px;
+    }
 }
