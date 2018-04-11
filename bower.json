@@ -1,0 +1,21 @@
+{
+  "name": "ace-lan",
+  "authors": [
+    "Shirahotsu <Shirahotsu@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^5.0.10",
+    "materialize": "^0.100.2"
+  }
+}

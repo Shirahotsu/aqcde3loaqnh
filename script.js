@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
-});
+}); 
 // $( window ).scroll(function() {
 //     if($(window).scrollTop() > 400){
 //         $( "#header" ).addClass( "navbar-fixed" );
