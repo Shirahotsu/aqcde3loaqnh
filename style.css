@@ -1,3 +1,13 @@
+body{
+    background-color: #424242;
+}
+#header{
+    opacity: 0.95;
+}
+.side-nav{
+    padding-top: 30px;
+}
+
 .sideNavBtns{
     padding-right: 80px;
 }
@@ -10,6 +20,9 @@
     margin-top: 400px;
     width: 100%;
     position: relative;
+}
+.side-nav li > a{
+    font-size: 1.6em;
 }
 .menuBtn{
     margin:20px;
@@ -31,7 +44,7 @@
     border:solid 0.5px inherit;
 }
 .wHr{
-    border:solid 0.5px #fff;
+    border:solid 0.5px #212121;
 }
 .container
 {
@@ -44,6 +57,9 @@
 .brand-logo{
     margin-left: 80px;
 }
+.pointer{
+    cursor: pointer;
+}
 
 .contentSubHeader{
     display: flex;
@@ -53,6 +69,9 @@
 }
 .card-content{
     font-size: 0.8em;
+}
+.parallax-container {
+    height: 300px;
 }
 
 
