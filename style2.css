@@ -1,0 +1,159 @@
+body {
+  background-color: #424242;
+}
+
+#header {
+  opacity: 0.95;
+}
+
+.side-nav {
+  padding-top: 30px;
+}
+
+.sideNavBtns {
+  padding-right: 80px;
+}
+
+/*.mainHeader{*/
+
+/*position: relative;*/
+
+/*width: 100%;*/
+
+/*}*/
+
+.header {
+  margin-top: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.side-nav li>a {
+  font-size: 1.6em;
+}
+
+.menuBtn {
+  margin: 20px;
+  position: fixed;
+}
+
+.contentA {
+  margin-top: 450px;
+}
+
+.contentB {
+  margin-top: 50px;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3em;
+  font-variant: all-small-caps;
+}
+
+.yHr {
+  border: solid 0.5px inherit;
+}
+
+.wHr {
+  border: solid 0.5px #212121;
+}
+
+.container {
+  padding: 20px 0;
+}
+
+.contentInfo {
+  padding-top: 20px;
+  font-size: 1.4em;
+}
+
+.brand-logo {
+  margin-left: 80px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.contentSubHeader {
+  display: flex;
+  justify-content: space-around;
+  font-variant: all-small-caps;
+}
+
+.card-content {
+  font-size: 0.8em;
+}
+
+.parallax-container {
+  height: 300px;
+}
+.logoAce{
+  width: 50%;
+  margin: 0 auto;
+}
+.organizatorzy li{
+  margin: 25px 0;
+}
+.organizatorzy li span {
+  font-weight: 700;
+  font-variant: small-caps;
+}
+.regiterInfo ul li{
+padding-left: 15px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+.regiterInfo ul ul li {
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.regiterInfo ul ul {
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-top: 15px;
+}
+.regiterInfo ul{
+  padding-top: 15px;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1em;
+}
+a{
+  color: inherit;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .brand-logo {
+    margin-left: 0px;
+  }
+  .logoAce {
+    width: 40%;
+  }
+  .organizatorzy{
+    width: 70%;
+    padding: 0;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contentInfo {
+    font-size: 1em;
+  }
+  .card-content {
+    font-size: 1em;
+  }
+}
