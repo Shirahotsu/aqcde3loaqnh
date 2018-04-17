@@ -2,8 +2,12 @@ $(document).ready(function(){
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
+    $('#blankBtn').on('click', toggleBlank);
 
-}); 
+});
+function toggleBlank(){
+    $("#blank").removeClass("blank");
+}
 // $( window ).scroll(function() {
 //     if($(window).scrollTop() > 400){
 //         $( "#header" ).addClass( "navbar-fixed" );
