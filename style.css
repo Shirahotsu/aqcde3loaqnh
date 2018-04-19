@@ -96,7 +96,7 @@ body {
     margin: 0 auto;
 }
 
-.organizatorzy li {
+.organizatorzy li, .turniejInfo li {
     margin: 25px 0;
 }
 
@@ -150,7 +150,23 @@ footer {
     font-size: 1.6em;
     
 }
-
+.logoImg{
+    /* position: absolute;
+    top:-50px; */
+    z-index: 60;
+}
+.logoImg::after{
+    content: " - Remember this";
+    height: 120px;
+    width: 120px;
+    background-color: #000000;
+    /* opacity: 0.5; */
+    transform: rotate(45deg);
+    border-radius: 50%;
+}
+strong{
+    font-weight: 700;
+}
 a {
     color: inherit;
 }
