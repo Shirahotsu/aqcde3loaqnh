@@ -95,6 +95,10 @@ body {
     width: 50%;
     margin: 0 auto;
 }
+.sponsor {
+    width: 40%;
+    margin: 0 auto;
+}
 
 .organizatorzy li, .turniejInfo li {
     margin: 25px 0;
@@ -150,13 +154,16 @@ footer {
     font-size: 1.6em;
     
 }
+.banner{
+    padding-top: 0px;
+}
 .logoImg{
     /* position: absolute;
     top:-50px; */
     z-index: 60;
 }
 .logoImg::after{
-    content: " - Remember this";
+    content: "";
     height: 120px;
     width: 120px;
     background-color: #000000;
@@ -189,6 +196,9 @@ a {
 
     .card-content {
         font-size: 1em;
+    }
+    .banner {
+        margin: 0px;
     }
 }
 
