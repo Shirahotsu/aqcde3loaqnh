@@ -96,8 +96,17 @@ body {
     margin: 0 auto;
 }
 .sponsor {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
+    padding: 15px;
+}
+.sponsor2 {
+    width: 25%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.spns{
+    margin-top: 20px;
 }
 
 .organizatorzy li, .turniejInfo li {
@@ -143,13 +152,14 @@ footer {
     margin: 30px;
 }
 #blankBtn{
-    position: absolute;
+    position: relative;
+    bottom: 20px;
     z-index: 9999;
     color: #424242;
 }
-/* .blank{
+.blank2{
    display: none;
-} */
+}
 .regInfo{
     font-size: 1.6em;
     

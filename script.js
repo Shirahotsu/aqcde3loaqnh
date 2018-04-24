@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 });
 function toggleBlank(){
-    $("#blank").removeClass("blank");
+    $("#cBlank").removeClass("blank2");
 }
 function myFunction(x) {
     if (x.matches) { // If media query matches
